@@ -1,4 +1,4 @@
-module github.com/lidaqi001/go-micro-plugins
+module github.com/lidaqi001/go-micro-plugins/rabbitmq
 
 go 1.16
 
