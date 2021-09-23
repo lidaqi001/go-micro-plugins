@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option go_package = "codeup.aliyun.com/shan/micro.protos/basic/event/event_hello";
+
+package event_hello;
+
+/**
+ * 处理演示异步服务对象（event事件）
+ */
+
+message HelloEvent {
+  string who = 1;
+}
+
+message BaseMessage {
+  int32 baseInt = 1;
+  map<int32, string> data = 2;
+}
